@@ -1,6 +1,6 @@
 ---
 title: "【JavaScript】なんやこの記法...！「~indexOf()」ビット否定演算子"
-emoji: "🐷"
+emoji: "🐍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["javascript"]
 published: true
