@@ -26,7 +26,7 @@ JavaScriptのチルダ `~` はビット否定演算子で、上記のコード�
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Bitwise_NOT
 
-ビット否定することにより、[`indexOf()` の返り値](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf#%E8%BF%94%E5%80%A4) のうち、見つからなかった場合の `-1` だけが `0` 、つまり Falsy な値になるというものです。
+ビット否定することによって、[`indexOf()` の返り値](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf#%E8%BF%94%E5%80%A4) のうち、見つからなかった場合の `-1` だけが `0` 、つまり Falsy な値になるというものです。
 
 :::details 詳しく
 
@@ -67,11 +67,12 @@ JavaScript のチルダ `~` はビット否定演算子。
 `String.indexOf()` 関数 (`Array.indexOf()` も同様) と合わせて使用すると、探しものが見つからなかった場合にだけFalsyな値を作る、ということが容易になります。
 
 個人的には、普通にこっちのほうが直感的でわかりやすいように感じましたが...
-皆様のご意見、ご感想お待ちしております。
 ```javascript
 if (text.indexOf(searchText) !== -1) {
   return text
 }
 ```
+皆様のご意見、ご感想お待ちしております。
 
 記事の中に誤った情報がありましたら、優しくご指摘いただけますと幸いです。🙇
+ありがとうございました。
